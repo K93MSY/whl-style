@@ -1,5 +1,3 @@
-<p align="center" style="font-size:40px;font-weight:bold;">Whl Web Design</p>
-<p align="center">Animation Css</p>
-<hr>
-<p align="center" style="font-size:25px;">Now Adding Some Components</p>
-<p align="center" style="font-size:25px;">Coming Soon?</p>
+<h1 align="center">Whl Web Design</h1>
+<h3 align="center">Now Adding Some Components</h3>
+<h3 align="center" style="font-size:25px;">Coming Soon?</h3>
