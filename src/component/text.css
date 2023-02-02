@@ -1,0 +1,75 @@
+/*Theme Font*/
+* {
+    font-family: 'Meiryo', 'MS PGothic';
+    font-weight: normal;
+}
+
+/*Text Width*/
+.text-w-1 {
+    font-weight: 100;
+}
+
+.text-w-2 {
+    font-weight: 200;
+}
+
+.text-w-3 {
+    font-weight: 300;
+}
+
+.text-w-4 {
+    font-weight: 400;
+}
+
+.text-w-5 {
+    font-weight: 500;
+}
+
+.text-w-6 {
+    font-weight: 600;
+}
+
+.text-w-7 {
+    font-weight: 700;
+}
+
+.text-w-8 {
+    font-weight: 800;
+}
+
+.text-w-9 {
+    font-weight: 900;
+}
+
+.text-w-bold {
+    font-weight: bold;
+}
+
+.text-w-bolder {
+    font-weight: bolder;
+}
+
+.text-w-lighter {
+    font-weight: lighter;
+}
+
+/*Text Size*/
+.text-sm {
+    font-size: clamp(8px, 1vw, 12px);
+
+}
+
+.text-md {
+    font-size: clamp(12px, 1.8vw, 18px);
+
+}
+
+.text-lg {
+    font-size: clamp(20px, 2.7vw, 28px);
+
+}
+
+.text-xlg {
+    font-size: clamp(34px, 4vw, 45px);
+
+}
