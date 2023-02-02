@@ -3,7 +3,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
   entry:'./src/build.js',
-  mode: "development",
+  mode: "production",
 
   output: {
     path: `${__dirname}/dist`,
