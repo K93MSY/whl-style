@@ -6,12 +6,14 @@
     height: 38px;
     min-width: 38px;
     padding: 2px 5px;
-    transition: 0.3s;
+    transition: .4s ease-out;
     -webkit-appearance: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    --btn-wave-begin:#4dbeff66;
+    --btn-wave: #4dbeff22;
 }
 
 .btn:hover{
@@ -23,7 +25,7 @@
     background-color: #217db3;
     border-color: #217db3;
 }
-.btn-trans{
+.btn-trans,.btn-trans.theme-emerald,.btn-trans.theme-primary,.btn-trans.theme-purple{
     background: #ffffff !important;
     color: #000000;
     border: #a7a7a7 1px solid;
@@ -37,21 +39,23 @@
     color: #4dbeff !important;
 }
 
-.btn-trans.theme-purple,.btn-trans.theme-purple:hover,.btn-trans.theme-purple:active{
+.btn-trans.theme-purple:hover,.btn-trans.theme-purple:active{
     color: #ac30ff !important;
     background: #ffffff !important;
 }
 
-.btn-trans.theme-emerald,.btn-trans.theme-emerald:hover,.btn-trans.theme-emerald:active{
+.btn-trans.theme-emerald:hover,.btn-trans.theme-emerald:active{
     color: #30ffac !important;
     background: #ffffff !important;
 }
 
 .theme-purple{
     color: #ffffff;
-    background-color: #ac30ff !important;
-    border-color: #ac30ff !important;
-    box-shadow: 0px 0px 0px 0px #ac30ff33;
+    background-color: #ac30ff;
+    border-color: #ac30ff;/*
+    box-shadow: 0px 0px 0px 0px #ac30ff33;*/
+    --btn-wave-begin: #ac30ff66 !important;
+    --btn-wave: #ac30ff22 !important;
 }
 
 .theme-purple:hover{
@@ -61,8 +65,8 @@
 
 .theme-purple:active{
     background-color: #7720b1 !important;
-    border-color: #7720b1 !important;
-    animation: btn-purple-shadow 0.3s;
+    border-color: #7720b1 !important;/*
+    animation: btn-purple-shadow 0.3s;*/
 }
 
 .theme-primary{
@@ -78,10 +82,12 @@
 
 
 .theme-emerald{
-    color: #ffffff ;
+    color: #ffffff;
     background-color: #30ffac;
-    border-color: #30ffac;
-    box-shadow: 0px 0px 0px 0px #30ffac33;
+    border-color: #30ffac;/*
+    box-shadow: 0px 0px 0px 0px #30ffac33;*/
+    --btn-wave-begin: #30ffac66 !important;
+    --btn-wave: #30ffac22 !important;
 }
 
 .theme-emerald:hover{
@@ -91,10 +97,10 @@
 
 .theme-emerald:active{
     background-color: #23bb7e !important;
-    border-color: #23bb7e !important;
-    animation: btn-emerald-shadow 0.3s;
+    border-color: #23bb7e !important;/*
+    animation: btn-emerald-shadow 0.3s;*/
 }
-
+/*
 @keyframes btn-primary-shadow{
     0% {
         box-shadow: 0px 0px 0px 0px #4dbeff33;
@@ -129,4 +135,4 @@
     100% {
         box-shadow: 0px 0px 0px 7px #ac30ff33;
     }
-}
+}*/

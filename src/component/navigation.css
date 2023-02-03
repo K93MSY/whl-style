@@ -1,0 +1,12 @@
+.nav-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 0;
+    width: 100vw;
+    height: 58px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dcdcdc;
+}
