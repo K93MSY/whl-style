@@ -7,7 +7,6 @@
     min-width: 38px;
     padding: 2px 5px;
     transition: 0.3s;
-    box-shadow: 0px 0px 0px 0px #4dbeff33;
     -webkit-appearance: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -23,7 +22,6 @@
 .btn:active,.btn .theme-primary:active{
     background-color: #217db3;
     border-color: #217db3;
-    animation: btn-primary-shadow 0.3s;
 }
 .btn-trans{
     background: #ffffff !important;

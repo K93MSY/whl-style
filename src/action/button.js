@@ -1,9 +1,4 @@
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-var __webpack_exports__ = {};
-
-;// CONCATENATED MODULE: ./src/action/button.js
-function button_button(){
+export function button(){
     //Query
     function $(query){
         if(query.charAt(0) == '.'){
@@ -19,19 +14,3 @@ function button_button(){
         }, false);
     }
 }
-;// CONCATENATED MODULE: ./src/build.js
-//Style Sheet Components
-
-
-
-
-
-
-//Javascript Components
-
-
-//Main Field
-
-button_button();
-/******/ })()
-;
