@@ -8,6 +8,7 @@
     padding: 2px 5px;
     transition: 0.3s;
     outline:solid 0px #4dbeff33;
+    user-select:  none;
 }
 
 .btn:hover{
