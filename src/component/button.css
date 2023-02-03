@@ -8,7 +8,11 @@
     padding: 2px 5px;
     transition: 0.3s;
     outline:solid 0px #4dbeff33;
-    user-select:  none;
+    -webkit-appearance: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .btn:hover{
@@ -26,6 +30,10 @@
     background: #ffffff !important;
     color: #000000;
     border: #a7a7a7 1px solid;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .btn-trans .theme-primary:hover,.btn-trans:hover{
