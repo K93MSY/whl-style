@@ -81,6 +81,11 @@
 
 }
 
+.text-xxlg {
+    font-size: clamp(45px, 6vw, 64px);
+
+}
+
 a:link,a:visited{
   text-decoration: underline;
   color: #2eb2ff;

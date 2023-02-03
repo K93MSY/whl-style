@@ -1,4 +1,23 @@
-.circle{
-    padding: 5px;
-    border-radius: 50%;
+.round-none{
+    border-radius: none;
+}
+
+.round-xsm{
+    border-radius: 3px;
+}
+
+.round-sm{
+    border-radius: 6px;
+}
+
+.round-md{
+    border-radius: 12px;
+}
+
+.round-lg{
+    border-radius: 20px;
+}
+
+.round-xlg{
+    border-radius: 40px;
 }
