@@ -74,3 +74,8 @@
     font-size: clamp(34px, 4vw, 45px);
 
 }
+
+a:link,a:visited{
+  text-decoration: underline;
+  color: #2eb2ff;
+}
