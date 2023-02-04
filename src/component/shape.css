@@ -21,3 +21,18 @@
 .round-xlg{
     border-radius: 40px;
 }
+
+.icon-sm{
+    height: clamp(8px, 1vw, 12px);
+    width: clamp(8px, 1vw, 12px);
+}
+
+.icon-md{
+    height: clamp(12px, 1.8vw, 18px);
+    width: clamp(12px, 1.8vw, 18px);
+}
+
+.icon-lg{
+    height: clamp(34px, 4vw, 45px);
+    width: clamp(34px, 4vw, 45px);
+}

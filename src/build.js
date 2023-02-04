@@ -10,6 +10,8 @@ import './component/grid.css';
 import './component/card.css';
 import './component/navigation.css';
 
+import './component/other.css';
+
 //Javascript Components
 import {button} from './action/button.js'
 
