@@ -16,8 +16,8 @@
     --btn-wave: #4dbeff22;
 }
 
-a .btn{
-  text-decoration:none;
+a > .btn{
+  text-decoration:none !important;
 }
 
 .btn:hover{
