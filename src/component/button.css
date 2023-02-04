@@ -16,6 +16,10 @@
     --btn-wave: #4dbeff22;
 }
 
+a .btn{
+  text-decoration:none;
+}
+
 .btn:hover{
     background-color: #80d0ff;
     border-color: #80d0ff;
